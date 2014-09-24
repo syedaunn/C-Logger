@@ -9,12 +9,6 @@
 
 
 FILE *fp ;
-enum log_level{
-	INFO=0,
-	DEBUG,
-	WARNING,
-	ERROR
-};
 
 void log_print(int debug_level,int rank,char* filename, int line, char *fmt,...)
 {
